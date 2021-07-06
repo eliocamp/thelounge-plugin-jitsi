@@ -1,0 +1,25 @@
+{
+    "name": "thelounge-plugin-jitsi",
+    "version": "1.0.0",
+    "description": "Plugin to create and send a random jitsi link",
+    "main": "index.js",
+    "repository": "https://github.com/eliocamp/thelounge-plugin-jitsi/",
+    "homepage": "https://github.com/eliocamp/thelounge-plugin-jitsi/",
+    "author": "eliocamp <eliocampitelli@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "thelounge",
+        "thelounge-plugin",
+        "jitsi"
+    ],
+    "bugs": {
+        "url": "https://github.com/eliocamp/thelounge-plugin-jitsi/issues"
+    },
+    "thelounge": {
+        "name": "Jitsi",
+        "type": "plugin"
+   },
+    "dependencies": {
+        "thelounge": "4.2.0"
+    }
+}
