@@ -62,7 +62,7 @@ const jitsiCommand = {
  input: function (client, target, command, args) {
     var bytes = crypto.randomBytes(8);
     var id = encode(bytes);
-    var link = "meet.jit.si/useR2021/" + id;
+    var link = "meet.jit.si/" + id;
     client.sendMessage("Here's your jitsi room: " + link, target.chan);
 
     if (args.length !== 0) {
